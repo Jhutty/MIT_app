@@ -1,7 +1,7 @@
 self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('mit-v1').then(function(cache) {
-                                return cache.addAll(["./mit-app.html", "./manifest.json", "icon-192.png", "icon-512.png"])
+                                return cache.addAll(["./index.html", "./manifest.json", "assets/icon-192.png", "assets/icon-512.png"])
         })
     )
 });
