@@ -1,7 +1,7 @@
 {
   "name": "MIT — The Most Important Thing",
   "short_name": "MIT",
-  "start_url": "./index.html",
+  "start_url": "./MIT_app/index.html",
   "display": "standalone",
   "theme_color": "#d9cdb8",
   "background_color": "#d9cdb8",
